@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오 - 김남규</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+<header>
+        <nav class="container">
+            <div class="logo">Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#home">홈</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#education">학력/경력</a></li>
+                <li><a href="#achievements">수상/자격증</a></li>
+                <li><a href="#projects">프로젝트</a></li>
+                <li><a href="#researches">논문/특허</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>안녕하세요,<br>김남규입니다</h1>
+            
+                    <a href="#projects" class="cta-button">프로젝트 보기</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content reveal">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>
+                            저는 데이터 분석과 인공지능, 백엔드 개발에 강점을 가진 개발자입니다.  
+                            딥러닝, 데이터 분석 등 다양한 프로젝트 경험을 통해 실무적인 문제 해결 능력을 키워왔습니다.
+                        </p>
+                        <p>
+                            또한 React Native 기반 모바일 앱 개발, Node.js 서버 구축, MySQL DB 설계 등 풀스택 개발 경험도 보유하고 있습니다.  
+                            팀워크를 중시하며, 협업 속에서 의견을 조율하고 더 나은 방향으로 발전하는 것을 중요하게 생각합니다.
+                        </p>
+                        
+                        <div class="skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Pytorch</span>
+                            <span class="skill-tag">Tensorflow</span>
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">C</span>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <img src="./imgs/profile.JPG">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Education 학력-->
+        <section id="education" class="education">
+            <div class="container">
+                <h2 class="section-title reveal">Education & Experience</h2>
+                <div class="timeline">
+                    <div class="timeline-item reveal">
+                        <div class="timeline-date">2020 - 2026</div>
+                        <div class="timeline-content">
+                            <h3>컴퓨터공학과 학사 졸업예정</h3>
+                            <h4>창원대학교</h4>
+                            <p>주요 과목: 자료구조, 영상처리, 객체지향프로그래밍, 데이터베이스, 소프트웨어공학</p>
+                            <p>학점: 3.85/4.5</p>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+        <!-- Projects -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title reveal">Projects</h2>
+                <div class="projects-grid">
+
+                    <!-- Project 1 -->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/landslide.jpg"></div>
+                        <div class="project-content">
+                            <h3>산사태 예측 모델</h3>
+                            <p>
+                                기상 관측 데이터, 토양도, 임상도 데이터를 결합하여 RandomForest 기반 산사태 예측 모델을 구현.  
+                                기후 변화에 따른 위험도를 예측하여 재난 대비에 활용 가능.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">scikit-learn</span>
+                                <span class="tech-tag">pandas</span>
+                                <span class="tech-tag">numpy</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/Landslide-prediction-model" target="_blank" class="project-link">프로젝트 보기 →</a>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/yolo.png"></div>
+                        <div class="project-content">
+                            <h3>시각장애인 보행 위험 탐지 시스템</h3>
+                            <p>
+                                YOLOv8 객체 탐지와 MiDaS 깊이 추정을 결합하여 보행자의 시점에서 위험 요소를 탐지.  
+                                객체 크기 변화율 기반 위험 평가 기법을 제안하여 인지 보조 시스템에 활용.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">YOLOv8</span>
+                                <span class="tech-tag">MiDaS</span>
+                                <span class="tech-tag">OpenCV</span>
+                                <span class="tech-tag">Python</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/Obstacle-Detection-App-for-Visually-Impaired" target="_blank" class="project-link">프로젝트 보기 →</a>
+                        </div>
+                    </div>
+                    <!-- Project 3-->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/go-around.jpg"></div>
+                        <div class="project-content">
+                            <h3>Go-Around 예측 모델</h3>
+                            <p>
+                                제주공항 1년치 기상 데이터와 항공 데이터를 분석해 Go-Around(복행) 발생 원인 분석
+                                통계적 기법과 AI 모델을 결합해 Go-Around 발생 확률 예측 시스템 개발
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">XGBoost</span>
+                                <span class="tech-tag">AutoEncoder</span>
+                                <span class="tech-tag">Matplotlib</span>
+                                <span class="tech-tag">Z-Test</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/Go-Around" target="_blank" class="project-link">프로젝트 보기 →</a>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/milimate.PNG"></div>
+                        <div class="project-content">
+                            <h3>밀리메이트 (Milimate)</h3>
+                            <p>
+                                군 생활을 효율적으로 지원하는 통합 관리 앱.  
+                                QR코드 기반 식사 체크 시스템을 통해 음식물 쓰레기를 줄이고, 식단표 확인 및 PX 인기 품목 조회 기능을 제공.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React Native</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/React" target="_blank" class="project-link">프로젝트 보기 →</a>
+                        </div>
+                    </div>
+                    <!-- Project 5-->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/gyeongnam.PNG"></div>
+                        <div class="project-content">
+                            <h3>경상남도 주요 관광지 추천 시스템</h3>
+                            <p>
+                                경상남도 주요 관광지를 대상으로 계절별 관광객 유형 변화 분석을 수행하고,
+                                이를 바탕으로 추가적인 관광 벨트 제안을 통해 지역 경제 활성화 방안을 도출
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">KoNLPy</span>
+                                <span class="tech-tag">scikit-learn</span>
+                                <span class="tech-tag">Crawling</span>
+                                <span class="tech-tag">Clustering</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/Gyeongsangnam-do-Tourism-Data-Analysis" target="_blank" class="project-link">프로젝트 보기 →</a>
+                        </div>
+                    </div>
+                    <!-- Project 5-->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/swdeep.PNG"></div>
+                        <div class="project-content">
+                            <h3>음성 딥페이크 탐지 시스템</h3>
+                            <p>
+                                딥러닝 기술을 활용하여 실제 음성과 AI로 생성된 가짜 음성을 구분하는 탐지 시스템
+                                CQT(Constant-Q Transform) 변환과 YAMNet 모델을 결합하여 높은 정확도의 음성 진위 판별을 수행
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">librosa</span>
+                                <span class="tech-tag">Pytorch</span>
+                                <span class="tech-tag">CQT</span>
+                                <span class="tech-tag">YamNet</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/SW---Deepfake-2024-" target="_blank" class="project-link">프로젝트 보기 →</a>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/myboard.png"></div>
+                        <div class="project-content">
+                            <h3>웹 게시판 구현</h3>
+                            <p>
+                                Node.js와 MySQL을 사용하여 프론트엔드부터 백엔드까지 풀스택으로 개발한 웹 게시판.
+                                이를 통해 클라이언트-서버 구조와 관계형 DB를 확실하게 이해함
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Javascript</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/kng_board" target="_blank" class="project-link">프로젝트 보기 →</a>
+                        </div>
+                    </div>                    
+                    <!-- Project 5 -->
+                    <div class="project-card reveal">
+                        <div class="project-image">Terminal Tetris</div>
+                        <div class="project-content">
+                            <h3>터미널 기반 테트리스</h3>
+                            <p>
+                                C언어 자료구조 과제로 구현한 터미널 Tetris 게임.  
+                                기존 코드 구조를 유지하면서 게임 로직을 직접 설계하여 학습에 활용.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C</span>
+                                <span class="tech-tag">Data Structure</span>
+                                <span class="tech-tag">Algorithm</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/Tetris-in-C" target="_blank" class="project-link">프로젝트 보기 →</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <!-- 수상/자격증-->
+        <section id="achievements" class="achievements">
+            <div class="container">
+                <div class="achievements-content">
+                    <div class="awards-section">
+                        <h2 class="section-title reveal">Awards</h2>
+                        <div class="awards-grid">
+                            <div class="award-card reveal">
+                                <div class="award-year">2024</div>
+                                <h3>한국정보전자통신기술학회</h3>
+                                <h4>우수논문상</h4>
+                                <p>학술 논문지에 발표된 논문 중 독창성과 접근법 및 응용성이 탁월하여 우수논문상을 수여</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="certifications-section">
+                        <h2 class="section-title reveal">Certifications</h2>
+                        <div class="cert-grid">
+                            <div class="cert-card reveal">
+                                <h3>정보처리기사</h3>
+                                <p class="cert-issuer">한국산업인력공단</p>
+                                <p class="cert-date">2025.09</p>
+                            </div>
+                            
+                            <div class="cert-card reveal">
+                                <h3>토익스피킹 IH(150점)</h3>
+                                <p class="cert-issuer">YBM</p>
+                                <p class="cert-date">2025.03</p>
+                            </div>
+                            <div class="cert-card reveal">
+                                <h3>굴착기운전기능사</h3>
+                                <p class="cert-issuer">한국산업인력공단</p>
+                                <p class="cert-date">2023.02</p>
+                            </div>
+                            <div class="cert-card reveal">
+                                <h3>운전면허 1종 대형</h3>
+                                <p class="cert-issuer">부산지방경찰청</p>
+                                <p class="cert-date">2021.01</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research outcomes -->
+        <section id="researches" class="researches">
+            <div class="container">
+                <h2 class="section-title reveal">논문/특허</h2>
+                <div class="projects-grid">
+                    <!-- 논문 1 -->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/yolo_research.PNG"></div>
+                        <div class="project-content">
+                            <h3>GloSea6에서 YOLOv8을 활용한 시각장애인 보행자 위험 감지 기법</h3>
+                            <p>
+                                YOLOv8 모델과 Kalman Filter, MiDaS 모델을 통해 보다 정확한 객체 탐지 및 추적 가능
+                                이를 통해 시각장애인에게 보다 더 신뢰성 있는 위험 감지를 제공할 수 있음
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">YOLOv8</span>
+                                <span class="tech-tag">Object Detection</span>
+                                <span class="tech-tag">Object Tracking</span>
+                                <span class="tech-tag">Depth Estimation</span>
+                            </div>
+                            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003159703" target="_blank" class="project-link">논문 보기 →</a>
+                        </div>
+                    </div>
+                    <!-- 논문 2-->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/Go-around_research.PNG"></div>
+                        <div class="project-content">
+                            <h3>제주공항 공항·기상 데이터 기반 Go-Around 예측 모델 연구</h3>
+                            <p>
+                                제주공항 1년치 기상 데이터와 항공 데이터를 분석해 Go-Around(복행) 발생 원인 분석
+                                통계적 기법과 AI 모델을 결합해 Go-Around 발생 확률 예측 시스템 개발
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">XGBoost</span>
+                                <span class="tech-tag">AutoEncoder</span>
+                                <span class="tech-tag">Matplotlib</span>
+                                <span class="tech-tag">Z-Test</span>
+                            </div>
+                            <a href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003239448" target="_blank" class="project-link">논문 보기 →</a>
+                        </div>
+                    </div>
+                    <!-- 특허 -->
+                    <div class="project-card reveal">
+                        <div class="project-image">Relocation Algorithm</div>
+                        <div class="project-content">
+                            <h3>특허 - 창원시 누비자 자전거 재배치 알고리즘</h3>
+                            <p>
+                                공공 자전거 재배치 기술에 관한 발명으로, 도시 내 자전거 대여 서비스의 효율성을 극대화하기 위한 시스템
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">Matplotlib</span>
+                                <span class="tech-tag">pandas</span>
+                                <span class="tech-tag">NetworkX</span>
+                                <span class="tech-tag">Seaborn</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/Shared-bike-relocation-Algorithm" target="_blank" class="project-link">특허 내용 보기 →</a>
+                        </div>
+                    </div>
+                    <!-- 저작권 -->
+                    <div class="project-card reveal">
+                        <div class="project-image"><img src="./imgs/RPA.png"></div>
+                        <div class="project-content">
+                            <h3>저작권 - 제조기업의 사무자동화를 위한 로보틱 프로세스 자동화 소프트웨어</h3>
+                            <p>
+                                 RPA (Robotic Process Automation) 기술을 활용하여 제조 ICT 기반의 사무 자동화 시스템을 개발하는 것이 본 프로젝트의 목표.
+                                 본 연구는 경남 지역 제조기업을 중심으로 IoT, AI, Big Data 기술과 결합한 스마트 제조 ICT 환경을 구축하고, 효율적인 자동화 솔루션을 제공.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">pandas</span>
+                                <span class="tech-tag">ERP</span>
+                                <span class="tech-tag">RPA</span>
+                            </div>
+                            <a href="https://github.com/y0shyj0shy0/RPA-Platform-Software.git" target="_blank" class="project-link">특허 내용 보기 →</a>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </section>
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-content reveal">
+                    <h2>Contact</h2>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h4>Email</h4>
+                            <a href="mailto:f__f___f____f@naver.com">f__f___f____f@naver.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <h4>Phone</h4>
+                            <a href="tel:+82-10-2671-5721">010-2671-5721</a>
+                        </div>
+                        <div class="contact-item">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/y0shyj0shy0" target="_blank">github.com/y0shyj0shy0</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 김남규. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offsetTop = target.offsetTop - 80;
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Reveal animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.reveal').forEach(element => {
+            observer.observe(element);
+        });
+
+        // Header background change on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(255, 255, 255, 0.98)';
+            } else {
+                header.style.background = 'rgba(255, 255, 255, 0.95)';
+            }
+        });
+    </script>
+</body>
+</html>
